@@ -1,0 +1,6 @@
+input11 = input("Masukkan Nama:")
+input2 = input("umur :")
+teks = "Nama: {}\nUmur:".format(input11,input2)
+fileku=open("Riwayat.txt", "w")
+fileku.write(teks)
+fileku.close()
